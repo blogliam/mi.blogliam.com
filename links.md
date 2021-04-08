@@ -4,4 +4,4 @@ title: Links
 permalink: /links/
 ---
 
-Minhtam links
+Minhtam links!

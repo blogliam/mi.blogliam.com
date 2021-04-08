@@ -1,0 +1,11 @@
+# Site settings
+title: Minhtam Blog
+description:
+author: Minhtam T. Cao
+url: "https://mi.blogliam.com"
+
+sass:
+    style: compressed
+
+plugins:
+  - jekyll-feed

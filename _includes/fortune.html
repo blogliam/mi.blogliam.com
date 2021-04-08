@@ -1,0 +1,11 @@
+<script type='text/javascript'>
+	fortune = [];
+
+	{% for fort in site.data.fortunes.fortunes %}
+	fortune[{{ forloop.index | minus: 1 }}] = '{{ fort }}';
+	{% endfor %}
+
+	index = Math.floor(Math.random() * fortune.length);
+	document.write(fortune[index]);
+</script>
+<noscript>{{ site.data.fortunes.noscript }}</noscript>
